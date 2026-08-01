@@ -1,7 +1,25 @@
 aid: tracksby
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tracksby.png
 name: Tracksby
-description: Tracksby is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tracksby (Tracks.by) was a music marketing startup that helped artists
+  and their managers release new music and videos through deep Facebook integration,
+  social launch campaigns, fan email capture, and YouTube/VEVO embeds, turning each
+  release into a fan-growth campaign. Listed on the a16z investment list, the early-2010s
+  company is now defunct - tracks.by no longer resolves, tracksby.com is parked for
+  sale, the @TracksBy Twitter account is gone, and its GitHub account has been inactive
+  since 2012. No public API surface was found, so this profile records an inactive
+  portfolio lead with no artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/tracksby/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,32 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence:
+- 'tracks.by does not resolve (DNS lookup empty, curl 000; probed 2026-07-21)'
+- 'tracksby.com parked for sale (307 redirect to forsale.godaddy.com; probed 2026-07-21)'
+- 'tracksby.ai unregistered / registrar parking page (probed 2026-07-21)'
+- 'github.com/tracksby exists but holds only forks, last pushed 2012'
+- 'x.com/TracksBy returns 404 (probed 2026-07-21)'
+- 'npm registry search for "tracksby" returns zero packages'
+- 'historical identity confirmed via Wayback Machine snapshot of tracksby.com -> tracks.by (2012-04-18)'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Music
+- Marketing
+- Social Media
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
