@@ -36,7 +36,7 @@ x-status-evidence:
 - 'x.com/TracksBy returns 404 (probed 2026-07-21)'
 - 'npm registry search for "tracksby" returns zero packages'
 - 'historical identity confirmed via Wayback Machine snapshot of tracksby.com -> tracks.by (2012-04-18)'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
