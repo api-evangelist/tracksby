@@ -32,6 +32,9 @@ description: Tracksby (Tracks.by) was a music marketing startup that helped arti
   since 2012. No public API surface was found, so this profile records an inactive
   portfolio lead with no artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/tracksby/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API surface was found, so this profile records an inactive portfolio lead with no artifacts to enrich."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
